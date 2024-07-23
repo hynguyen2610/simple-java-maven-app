@@ -12,7 +12,7 @@ public class AppTest
     @Test
     public void testAppConstructor() {
         App app1 = new App();
-        App app2 = new App();
+        App2 app2 = new App2();
         assertEquals(app1.getMessage(), app2.getMessage());
     }
 
